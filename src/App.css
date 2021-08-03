@@ -6,6 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
+.App-home {
+  height: 6vmin;
+  pointer-events: none;
+}
+.Header{
+  display: inline-block;
+  padding: 4vmin 4vmin;
+
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

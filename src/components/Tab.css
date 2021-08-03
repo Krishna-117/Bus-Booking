@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 16px;
+}
+.grandparent {
+    width: 100%;
+    margin-top: 5%;
+  }
+.column1 {
+    float: left;
+    width: 40%;
+}
+
+.column2 {
+    float: left;
+    width: 55%;
+    padding: 0;
+    margin: 0;
+}
+
+.ss {
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: 'center';
+    border: 1px solid #f04545e3;
+    background-color: #e9eff1;
+}
+
+.sst{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: 'center';
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+
+.form-check{
+    margin-left: 32px;
+    margin-top:5px;
+}
+

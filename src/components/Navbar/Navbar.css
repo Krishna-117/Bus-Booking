@@ -1,0 +1,65 @@
+.navbarSelf {
+    background-color: #25a1c7;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 40px;
+    font-family: 'Lucida Sans';
+  }
+  .navSelf {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    block-size: inherit;
+    color: white;
+  }
+  .navSelf a {
+    color: white;
+  }
+  .navSelf a:hover {
+    background-color: #f34573;
+    color: white;
+  }
+  .navbar-brandSelf {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .ham {
+    display: none;
+  }
+  .nav-linkSelf {
+    display: flex;
+    padding: 0.5rem 1rem;
+    color: #f34573;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navSelf {
+      flex-direction: column;
+    }
+    .nav-linkSelf {
+      display: none;
+    }
+    .ham {
+      display: block;
+    }
+    .active {
+      display: block;
+    }
+  }

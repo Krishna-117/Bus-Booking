@@ -1,0 +1,153 @@
+/* .form-parentSelf {
+  display: flex;
+  background-color: inherit;
+  border-color: #2a6171;
+  align-content: center;
+}
+.form-groupSelf {
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-groupSelf select {
+  width: 250px;
+  height: 40px;
+}
+.form-groupSelf input {
+  height: 40px;
+  width: 250px;
+}
+.form-groupSelf button {
+  height: 40px;
+  width: 100px;
+  background-color: #2a6171;
+  border: 0px;
+  color: white;
+}
+.form-groupSelf button:hover {
+  background-color: #f34573;
+}
+@media screen and (max-width: 1100px) {
+  .form-groupSelf {
+    flex-direction: column;
+  }
+} */
+#search_div {
+  position: relative;
+  top: 6vh;
+  width: 100%;
+}
+#search {
+  width: 80%;
+  margin-top: 5vh;
+  text-align: center;
+  margin: 0 auto;
+}
+#search_btn {
+  height: 15%;
+  width: 15%;
+  border-width: 0;
+  background-color: #d74f57;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900!important;
+  font-style: normal;
+  font-stretch: normal;
+  text-transform: none;
+}
+
+.search-wrap {
+  position: relative;
+  display: inline-block;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 18%);
+  z-index: 5;
+}
+.search-box {
+  position: relative;
+  width: 225px;
+  border: 1px solid #d2d2d2;
+  height: 46px;
+  background-color: #fff;
+}
+.fl {
+  float: left;
+}
+
+.button {
+  display: inline-block;
+  padding: 1.25%;
+  
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  transition: .1s;
+  border: none;
+  text-align: center;
+}
+
+
+
+
+.grandparent1 {
+  width: 100vw;
+  height: 20vh;
+}
+.parent1 {
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: all 0.2 linear;
+}
+.child1 {
+  width: 250px;
+  height: auto;
+  box-shadow: 0 0 20px #d7f7f5;
+  margin: 2px;
+}
+form {
+  border: none;
+}
+select,
+input {
+  border-width: 1px;
+  border-style: inset;
+}
+button {
+  background-color: #2a6171;
+  color: white;
+}
+button:hover {
+  background-color: #f34573;
+}
+
+
+
+@media screen and (max-width: 1420px) {
+  .grandparent1 {
+    height: auto;
+  }
+  .parent1 {
+    width: 60vw;
+  }
+  .child1 {
+    width: inherit;
+  }
+}
+@media screen and (max-width: 640px) {
+  .grandparent1 {
+    height: auto;
+  }
+  .parent1 {
+    width: 80vw;
+  }
+  .child1 {
+    width: inherit;
+  }
+}

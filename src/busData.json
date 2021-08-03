@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "serviceprovider": "Abc",
+        "departure": "09:00 AM",
+        "arrival": "01:30 PM",
+        "fare": 1000,
+        "bustype":"AC",
+        "availableseat":10   
+    },
+    {
+        "id": 2,
+        "serviceprovider": "Abc",
+        "departure": "09:00 AM",
+        "arrival": "01:30 PM",
+        "fare": 1000,
+        "bustype":"AC",
+        "availableseat":10   
+    },
+    {
+        "id": 3,
+        "serviceprovider": "AAc",
+        "departure": "09:30 AM",
+        "arrival": "12:30 PM",
+        "fare": 600,
+        "bustype":"Non-AC",
+        "availableseat":15 
+    },
+    {
+        "id": 4,
+        "serviceprovider": "Aac",
+        "departure": "09:30 AM",
+        "arrival": "12:30 PM",
+        "fare": 800,
+        "bustype":"Non-AC",
+        "availableseat":25 
+    }
+]

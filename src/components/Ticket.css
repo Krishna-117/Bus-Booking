@@ -1,0 +1,33 @@
+.ss {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid #f04545e3;
+    background-color: #09f3f3;
+}
+.ticket {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.ticket_head {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.ticket_body{
+    padding: 1rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #fff;
+    border: 1px solid #abb5ba;
+}
+.ticket_section{    
+    height: 1rem;
+    background-color: #fff;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+
+

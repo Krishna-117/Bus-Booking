@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import BusList from './components/BusList';
+import SeatSelection from './components/SeatSelection'
+import Form from "./components/Form";
+import Coupons from "./components/Coupon/Coupons";
+import Payment from "./components/Payment";
+import Ticket from "./components/Ticket";
+import Navbar from './components/Navbar/Navbar'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Navbar />
+      <Router>
+        <Switch>
+          <Route path="/" exact render={props => <>
+                 <Form {...props} />
+                 <Coupons {...props}/>
+              </>} />
+          <Route path="/buslist" exact render={props => <>
+              <Form {...props} />
+              <BusList {...props} />
+          </>} />
+          <Route path="/seatselection" render={props => <SeatSelection {...props} />} />
+          <Route path="/payment" exact render={props => <Payment {...props} />} />
+          <Route path="/ticket" exact render={props => <Ticket {...props} />} />
+        </Switch>
+      </Router>
+    </div >
   );
 }
 
